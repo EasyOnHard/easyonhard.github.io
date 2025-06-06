@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/categories/</loc>
+    <loc>https://easyonhard.github.io/categories/</loc>
   </url><url>
-    <loc>https://example.org/wiki/wiki/language/dutch/</loc>
+    <loc>https://easyonhard.github.io/wiki/wiki/language/dutch/</loc>
   </url><url>
-    <loc>https://example.org/</loc>
+    <loc>https://easyonhard.github.io/</loc>
   </url><url>
-    <loc>https://example.org/wiki/wiki/language/esperanto/</loc>
+    <loc>https://easyonhard.github.io/wiki/wiki/language/esperanto/</loc>
   </url><url>
-    <loc>https://example.org/tags/lang/</loc>
+    <loc>https://easyonhard.github.io/tags/lang/</loc>
   </url><url>
-    <loc>https://example.org/wiki/wiki/posting/</loc>
+    <loc>https://easyonhard.github.io/wiki/wiki/posting/</loc>
   </url><url>
-    <loc>https://example.org/tags/</loc>
+    <loc>https://easyonhard.github.io/tags/</loc>
   </url><url>
-    <loc>https://example.org/wiki/</loc>
+    <loc>https://easyonhard.github.io/wiki/</loc>
   </url>
 </urlset>
