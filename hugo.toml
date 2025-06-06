@@ -1,3 +1,35 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'EasyOnHard'
+sectionPagesMenu = "main"
+
+[module]
+  [[module.imports]]
+    path = "github.com/nanxiaobei/hugo-paper"
+
+[services]
+  [services.disqus]
+    shortname = 'YOUR_DISQUS_SHORTNAME'     # use disqus comments
+
+[params]
+  mainSections = ["Wiki"]
+  # color style
+  color = 'linen'                           # linen, wheat, gray, light
+
+  # header social icons
+  github = 'EasyOnHard'                 # github.com/YOUR_GITHUB_ID
+  bluesky = 'narwhalicorn.bsky.social'               # https://bsky.app/profile/YOUR_BLUESKY_ID
+
+  # home page profile
+  avatar = 'GRAVATAR_EMAIL'                 # gravatar email or image url
+  name = 'YOUR_NAME'
+  bio = 'YOUR_BIO'
+
+  # misc
+  #disableHLJS = true                        # disable highlight.js
+  #disablePostNavigation = true              # disable post navigation
+  monoDarkIcon = true                       # show monochrome dark mode icon
+  gravatarCdn = 'GRAVATAR_CDN_LINK'         # e.g. 'https://cdn.v2ex.com/gravatar/'
+  math = true                               # enable KaTeX math typesetting globally
+  graphCommentId = "YOUR_GRAPH_COMMENT_ID"  # use graph comment (disqus alternative)
+  favicon = "favicon.ico"                   # customize the default favicon

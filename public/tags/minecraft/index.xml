@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Minecraft on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/minecraft/</link>
+    <description>Recent content in Minecraft on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/tags/minecraft/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Minecaft Redstone Handbook</title>
+      <link>http://localhost:1313/wiki/wiki/books/minecraft-redstone-handbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/wiki/wiki/books/minecraft-redstone-handbook/</guid>
+      <description>&lt;p&gt;I have had this book for a long time, and it is showing wear. Unfortunately I have the paperback version of the book, so it is extra fragile. I found it pressed against a metal lock, so I was surprised when I found it in surprisingly good condition.&lt;/p&gt;&#xA;&lt;p&gt;None-the-less, these books are extremely valuable to me; they used to be like gold in elementary school, and having the full collection made you the coolest kid in the school.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Minecraft Beginner&#39;s Handbook</title>
+      <link>http://localhost:1313/wiki/wiki/books/minecraft-beginners-handbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/wiki/wiki/books/minecraft-beginners-handbook/</guid>
+      <description>&lt;p&gt;I got the book used for 6-something (Though the sticker on the front says $7.89). I was shocked at how low the price was and the book is in pristine condition, besides from a dent on the spine.&lt;/p&gt;&#xA;&lt;p&gt;Strangely enough, this is an English copy from &lt;a href=&#34;https://www.egmont.co.uk&#34;&gt;Egmont&lt;/a&gt;. The website is down, which is kind of funny. &lt;a href=&#34;https://www.egmont.com/books&#34;&gt;This&lt;/a&gt; one seems to work, though. All of my other Minecraft handbooks are Schoolastic.&lt;/p&gt;&#xA;&lt;p&gt;This is a hardback copy, same as the [[Minecraft Construction Handbook]].&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Minecraft Combat Handbook</title>
+      <link>http://localhost:1313/wiki/wiki/books/minecraft-combat-handbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/wiki/wiki/books/minecraft-combat-handbook/</guid>
+      <description>&lt;p&gt;I have had this book for a long time, and it is showing wear. Unfortunately I have the paperback version of the book, so it is extra fragile.&lt;/p&gt;&#xA;&lt;p&gt;None-the-less, these books are extremely valuable to me; they used to be like gold in elementary school, and having the full collection made you the coolest kid in the school.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Minecraft Construction Handbook</title>
+      <link>http://localhost:1313/wiki/wiki/books/minecraft-construction-handbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/wiki/wiki/books/minecraft-construction-handbook/</guid>
+      <description>&lt;p&gt;I have had this book for a long time, and it is showing wear. I do have the hardcover edition of this book, so it is in much better condition than the Combat Handbook, however it is scratched up and has a stain on the back.&lt;/p&gt;&#xA;&lt;p&gt;None-the-less, these books are extremely valuable to me; they used to be like gold in elementary school, and having the full collection made you the coolest kid in the school.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Minecraft Guide to Redstone</title>
+      <link>http://localhost:1313/wiki/wiki/books/minecraft-guide-to-redstone/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/wiki/wiki/books/minecraft-guide-to-redstone/</guid>
+      <description>&lt;p&gt;There is a mug stain in the dead center of the title.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Minecraft Guide to Survival</title>
+      <link>http://localhost:1313/wiki/wiki/books/minecraft-guide-to-survival/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/wiki/wiki/books/minecraft-guide-to-survival/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Zombies Attack! The Rise of the Warlords Book One</title>
+      <link>http://localhost:1313/wiki/wiki/books/zombies-attack-the-rise-of-the-warlords/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/wiki/wiki/books/zombies-attack-the-rise-of-the-warlords/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
