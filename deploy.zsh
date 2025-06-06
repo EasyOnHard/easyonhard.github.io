@@ -1,6 +1,9 @@
 #!/bin/zsh
 
+rsync -av --delete ~/Documents/Notes/Wiki ~/Documents/Hugo-Obsidian-Site/blog/content/wiki
+
 cd ~/Documents/Hugo-Obsidian-Site/blog/
+git add .
 git subtree split --prefix=public -b deploy
 git checkout deploy
 git commit -m "Updating Pages with New Content"
