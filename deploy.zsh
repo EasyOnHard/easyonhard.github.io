@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-rsync -av --delete ~/Documents/Notes/Wiki ~/Documents/Hugo-Obsidian-Site/blog/content/wiki
+rsync -av --delete ~/Documents/Notes/Wiki ~/Documents/Hugo-Obsidian-Site/blog/content/
 
 cd ~/Documents/Hugo-Obsidian-Site/blog/
 git add .
