@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lang on EasyOnHard</title>
-    <link>https://example.org/tags/lang/</link>
+    <link>https://easyonhard.github.io/tags/lang/</link>
     <description>Recent content in Lang on EasyOnHard</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/tags/lang/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://easyonhard.github.io/tags/lang/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dutch</title>
-      <link>https://example.org/wiki/wiki/language/dutch/</link>
+      <link>https://easyonhard.github.io/wiki/wiki/language/dutch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/wiki/wiki/language/dutch/</guid>
+      <guid>https://easyonhard.github.io/wiki/wiki/language/dutch/</guid>
       <description>&lt;p&gt;%% #language #dutch %%&lt;/p&gt;&#xA;&lt;p&gt;Never got around to it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Esperanto</title>
-      <link>https://example.org/wiki/wiki/language/esperanto/</link>
+      <link>https://easyonhard.github.io/wiki/wiki/language/esperanto/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/wiki/wiki/language/esperanto/</guid>
+      <guid>https://easyonhard.github.io/wiki/wiki/language/esperanto/</guid>
       <description>&lt;h2 id=&#34;grammar&#34;&gt;Grammar&lt;/h2&gt;&#xA;&lt;p&gt;![][https://www.youtube.com/watch?v=M-TioyqRO9o]&lt;/p&gt;&#xA;&lt;p&gt;Summary:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;SVO Structure&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Objects marked with -n, the accusative case&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Nouns marked with -o&lt;/li&gt;&#xA;&lt;li&gt;Adjectives marked with -a&lt;/li&gt;&#xA;&lt;li&gt;One article, la&#xA;&lt;ul&gt;&#xA;&lt;li&gt;La is definite, or &amp;rsquo;the&#39;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&amp;ldquo;Mi havas &lt;em&gt;la&lt;/em&gt; libro&amp;rdquo; -&amp;gt; I have the book&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;There is no indefinite article&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&amp;ldquo;Mi havas libro&amp;rdquo; -&amp;gt; I have a book&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Plurality is marked with -j, similar to the English -s&lt;/li&gt;&#xA;&lt;li&gt;Adverbs marked with -e&#xA;&lt;ul&gt;&#xA;&lt;li&gt;-e can also mean &amp;ldquo;In the&amp;rdquo;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&amp;ldquo;Urbo&amp;rdquo; -&amp;gt; City&lt;/li&gt;&#xA;&lt;li&gt;&amp;ldquo;Urbe&amp;rdquo; -&amp;gt; In the city&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Conjugation&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Infinitive -&amp;gt; -i&lt;/li&gt;&#xA;&lt;li&gt;Past -&amp;gt; -is&lt;/li&gt;&#xA;&lt;li&gt;Present -&amp;gt; -as&lt;/li&gt;&#xA;&lt;li&gt;Future -&amp;gt; -os&lt;/li&gt;&#xA;&lt;li&gt;Conditional -&amp;gt; -us&lt;/li&gt;&#xA;&lt;li&gt;Imperative -&amp;gt; -u&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Adjectives usually before noun&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Pronouns&lt;/p&gt;</description>
     </item>
   </channel>
