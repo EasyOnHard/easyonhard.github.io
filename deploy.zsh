@@ -3,6 +3,7 @@
 rsync -av --delete ~/Documents/Notes/Wiki ~/Documents/Hugo-Obsidian-Site/blog/content/
 
 cd ~/Documents/Hugo-Obsidian-Site/blog/
+hugo
 git add .
 git commit -m "Collecting all Files"
 git push origin main
