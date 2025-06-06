@@ -1,16 +1,23 @@
 #!/bin/zsh
+set -e
 
-rsync -av --delete ~/Documents/Notes/Wiki ~/Documents/Hugo-Obsidian-Site/blog/content/
+echo "[+] Syncing content..."
+rsync -av --delete --exclude="Wiki.md" ~/Documents/Notes/Wiki/ ~/Documents/Hugo-Obsidian-Site/blog/content/Wiki/
 
 cd ~/Documents/Hugo-Obsidian-Site/blog/
-hugo
-git add .
-git commit -m "Collecting all Files"
-git push origin main
-git subtree split --prefix=public -b deploy
-git checkout deploy
-git commit -m "Updating Pages with New Content"
-git push --force origin deploy:gh-pages
-git checkout main
 
-echo "Should have Deployed!"
+echo "[+] Building site..."
+hugo
+
+echo "[+] Committing changes..."
+if ! git diff --quiet; then
+  git add .
+  git commit -m "Collecting all Files"
+fi
+
+echo "[+] Deploying to gh-pages..."
+git subtree split --prefix=public -b temp-deploy
+git push --force origin temp-deploy:gh-pages
+git branch -D temp-deploy
+
+echo "Deployed to GitHub Pages!"

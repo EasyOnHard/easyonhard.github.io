@@ -2,13 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://easyonhard.github.io/</loc>
+    <lastmod>2025-06-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://easyonhard.github.io/wiki/test/</loc>
+    <lastmod>2025-06-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://easyonhard.github.io/wiki/</loc>
+    <lastmod>2025-06-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://easyonhard.github.io/wiki/wiki/</loc>
   </url><url>
     <loc>https://easyonhard.github.io/categories/</loc>
   </url><url>
     <loc>https://easyonhard.github.io/wiki/language/dutch/</loc>
-  </url><url>
-    <loc>https://easyonhard.github.io/</loc>
   </url><url>
     <loc>https://easyonhard.github.io/wiki/language/esperanto/</loc>
   </url><url>
@@ -17,7 +24,5 @@
     <loc>https://easyonhard.github.io/wiki/posting/</loc>
   </url><url>
     <loc>https://easyonhard.github.io/tags/</loc>
-  </url><url>
-    <loc>https://easyonhard.github.io/wiki/</loc>
   </url>
 </urlset>
