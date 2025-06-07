@@ -1,6 +1,6 @@
 +++
 date = '2025-06-07T13:23:07-04:00'
-title = 'index'
+title = 'EasyOnHard - GitHub Pages'
 +++
 
 This is my new Hugo site. I am making it to learn, advertise, and to host my "blog". I really just want it to be something that I use to put down stuff that I think is cool and have fun.
