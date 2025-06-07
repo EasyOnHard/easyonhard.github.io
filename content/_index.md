@@ -13,3 +13,7 @@ I plan to add a [Projects](Projects) folder where I will advertise my GitHub rep
 I started this when I wanted to host Minecraft information, and then I saw a YouTube video about incorporating Obsidian MD into Hugo and I immediately set it up. It took a few hours but it was well worth it! Below is the tutorial I used.
 
 {{<youtube dnE7c0ELEH8>}}
+
+{{<stamprow "archlinux.gif" "mozilla3.gif" "navidrome.gif" "neovim.gif">}}
+
+
