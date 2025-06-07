@@ -2,38 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://easyonhard.github.io/</loc>
+    <lastmod>2025-06-07T13:23:07-04:00</lastmod>
+  </url><url>
+    <loc>https://easyonhard.github.io/minecraft/</loc>
     <lastmod>2025-06-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/minecraft/</loc>
+    <loc>https://easyonhard.github.io/wiki/posting/</loc>
     <lastmod>2025-06-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/wiki/posting/</loc>
+    <loc>https://easyonhard.github.io/minecraft/realms-2025/</loc>
     <lastmod>2025-06-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/minecraft/realms-2025/</loc>
+    <loc>https://easyonhard.github.io/tags/realms_2025/</loc>
     <lastmod>2025-06-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/realms_2025/</loc>
+    <loc>https://easyonhard.github.io/tags/</loc>
     <lastmod>2025-06-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://easyonhard.github.io/wiki/test/</loc>
     <lastmod>2025-06-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/wiki/test/</loc>
+    <loc>https://easyonhard.github.io/wiki/</loc>
     <lastmod>2025-06-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/wiki/</loc>
-    <lastmod>2025-06-06T00:00:00+00:00</lastmod>
+    <loc>https://easyonhard.github.io/wiki/language/untitled/</loc>
   </url><url>
-    <loc>http://localhost:1313/wiki/language/untitled/</loc>
+    <loc>https://easyonhard.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://easyonhard.github.io/wiki/language/dutch/</loc>
   </url><url>
-    <loc>http://localhost:1313/wiki/language/dutch/</loc>
+    <loc>https://easyonhard.github.io/wiki/language/esperanto/</loc>
   </url><url>
-    <loc>http://localhost:1313/wiki/language/esperanto/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/language/</loc>
+    <loc>https://easyonhard.github.io/tags/language/</loc>
   </url>
 </urlset>

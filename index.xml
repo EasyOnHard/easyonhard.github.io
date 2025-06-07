@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>EasyOnHard</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on EasyOnHard</description>
+    <title>index on EasyOnHard</title>
+    <link>https://easyonhard.github.io/</link>
+    <description>Recent content in index on EasyOnHard</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 06 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://easyonhard.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Posting</title>
-      <link>http://localhost:1313/wiki/posting/</link>
+      <link>https://easyonhard.github.io/wiki/posting/</link>
       <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/wiki/posting/</guid>
+      <guid>https://easyonhard.github.io/wiki/posting/</guid>
       <description>&lt;p&gt;I am planning to add this folder to my GitHub Pages at &lt;a href=&#34;easyonhard.github.io&#34;&gt;easyonhard.github.io&lt;/a&gt;. I am planning on using it to host information for friends and for a passion project. My plan is to markdown write here, transcode it to HTML in Hugo, and then push it to GitHub. Shouldn&amp;rsquo;t be that mad.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Realms 2025</title>
-      <link>http://localhost:1313/minecraft/realms-2025/</link>
+      <link>https://easyonhard.github.io/minecraft/realms-2025/</link>
       <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/minecraft/realms-2025/</guid>
+      <guid>https://easyonhard.github.io/minecraft/realms-2025/</guid>
       <description>&lt;p&gt;This year&amp;rsquo;s Realm has been a ride. It has been most easily divided into two parts: PVP and normal Minecraft. The first part ended on the &lt;strong&gt;4th of June&lt;/strong&gt;, which I recapped that day. The second part started on &lt;strong&gt;June 5th&lt;/strong&gt; at around 20:00. So far it has been quite competitive in the terms of wealth, but it has been a lot nicer. We no longer need to spend 6 hours a day on it just to make sure you don&amp;rsquo;t fall behind!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Test</title>
-      <link>http://localhost:1313/wiki/test/</link>
+      <link>https://easyonhard.github.io/wiki/test/</link>
       <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/wiki/test/</guid>
+      <guid>https://easyonhard.github.io/wiki/test/</guid>
       <description></description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/wiki/language/untitled/</link>
+      <link>https://easyonhard.github.io/wiki/language/untitled/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/wiki/language/untitled/</guid>
+      <guid>https://easyonhard.github.io/wiki/language/untitled/</guid>
       <description></description>
     </item>
     <item>
       <title>Dutch</title>
-      <link>http://localhost:1313/wiki/language/dutch/</link>
+      <link>https://easyonhard.github.io/wiki/language/dutch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/wiki/language/dutch/</guid>
+      <guid>https://easyonhard.github.io/wiki/language/dutch/</guid>
       <description></description>
     </item>
     <item>
       <title>Esperanto</title>
-      <link>http://localhost:1313/wiki/language/esperanto/</link>
+      <link>https://easyonhard.github.io/wiki/language/esperanto/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/wiki/language/esperanto/</guid>
+      <guid>https://easyonhard.github.io/wiki/language/esperanto/</guid>
       <description>&lt;h2 id=&#34;grammar&#34;&gt;Grammar&lt;/h2&gt;&#xA;&lt;p&gt;![][https://www.youtube.com/watch?v=M-TioyqRO9o]&lt;/p&gt;&#xA;&lt;p&gt;Summary:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;SVO Structure&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Objects marked with -n, the accusative case&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Nouns marked with -o&lt;/li&gt;&#xA;&lt;li&gt;Adjectives marked with -a&lt;/li&gt;&#xA;&lt;li&gt;One article, la&#xA;&lt;ul&gt;&#xA;&lt;li&gt;La is definite, or &amp;rsquo;the&#39;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&amp;ldquo;Mi havas &lt;em&gt;la&lt;/em&gt; libro&amp;rdquo; -&amp;gt; I have the book&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;There is no indefinite article&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&amp;ldquo;Mi havas libro&amp;rdquo; -&amp;gt; I have a book&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Plurality is marked with -j, similar to the English -s&lt;/li&gt;&#xA;&lt;li&gt;Adverbs marked with -e&#xA;&lt;ul&gt;&#xA;&lt;li&gt;-e can also mean &amp;ldquo;In the&amp;rdquo;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&amp;ldquo;Urbo&amp;rdquo; -&amp;gt; City&lt;/li&gt;&#xA;&lt;li&gt;&amp;ldquo;Urbe&amp;rdquo; -&amp;gt; In the city&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Conjugation&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Infinitive -&amp;gt; -i&lt;/li&gt;&#xA;&lt;li&gt;Past -&amp;gt; -is&lt;/li&gt;&#xA;&lt;li&gt;Present -&amp;gt; -as&lt;/li&gt;&#xA;&lt;li&gt;Future -&amp;gt; -os&lt;/li&gt;&#xA;&lt;li&gt;Conditional -&amp;gt; -us&lt;/li&gt;&#xA;&lt;li&gt;Imperative -&amp;gt; -u&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Adjectives usually before noun&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Pronouns&lt;/p&gt;</description>
     </item>
   </channel>
