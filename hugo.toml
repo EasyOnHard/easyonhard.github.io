@@ -21,15 +21,15 @@ sectionPagesMenu = "main"
   bluesky = 'narwhalicorn.bsky.social'               # https://bsky.app/profile/YOUR_BLUESKY_ID
 
   # home page profile
-  avatar = 'GRAVATAR_EMAIL'                 # gravatar email or image url
-  name = 'YOUR_NAME'
-  bio = 'YOUR_BIO'
+  avatar = 'xander.iwanowicz@gmail.com'                 # gravatar email or image url
+  name = 'Solykx'
+  bio = ''
 
   # misc
   #disableHLJS = true                        # disable highlight.js
   #disablePostNavigation = true              # disable post navigation
   monoDarkIcon = true                       # show monochrome dark mode icon
-  gravatarCdn = 'GRAVATAR_CDN_LINK'         # e.g. 'https://cdn.v2ex.com/gravatar/'
+  gravatarCdn = 'https://gravatar.com/avatar/8a82b755b2b2351a8aea21dbe30339f6d3c9df3d19e26202cf05e79281a0ac1e'         # e.g. 'https://cdn.v2ex.com/gravatar/'
   math = true                               # enable KaTeX math typesetting globally
   graphCommentId = "YOUR_GRAPH_COMMENT_ID"  # use graph comment (disqus alternative)
   favicon = "favicon.ico"                   # customize the default favicon
