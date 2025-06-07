@@ -14,6 +14,6 @@ I started this when I wanted to host Minecraft information, and then I saw a You
 
 {{<youtube dnE7c0ELEH8>}}
 
-{{<stamprow "archlinux.gif" "mozilla3.gif" "navidrome.gif" "neovim.gif">}}
+{{<stamprow "archlinux.gif" "firefox2.gif" "mozilla3.gif" "navidrome.gif" "neovim.gif" "socialism.gif">}}
 
 
