@@ -5,7 +5,7 @@ echo "Syncing content..."
 cd ~/Documents/Hugo-Obsidian-Site/blog2/
 rm -rf content/Wiki
 rm -rf content/Minecraft
-rsync -av --delete --exclude="Wiki.md" ~/Documents/Notes/Hugo\ Site/ ~/Documents/Hugo-Obsidian-Site/blog2/content/
+rsync -av --exclude="Wiki.md" ~/Documents/Notes/Hugo\ Site/ ~/Documents/Hugo-Obsidian-Site/blog2/content/
 
 echo "Building site..."
 hugo
