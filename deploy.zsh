@@ -2,11 +2,10 @@
 set -e
 
 echo "Syncing content..."
-cd ~/Documents/Hugo-Obsidian-Site/blog/
+cd ~/Documents/Hugo-Obsidian-Site/blog2/
 rm -rf content/Wiki
 rm -rf content/Minecraft
-rsync -av --delete --exclude="Wiki.md" ~/Documents/Notes/Wiki/ ~/Documents/Hugo-Obsidian-Site/blog/content/Wiki/
-rsync -av --delete --exclude="Wiki.md" ~/Documents/Notes/Minecraft/ ~/Documents/Hugo-Obsidian-Site/blog/content/Minecraft/
+rsync -av --delete --exclude="Wiki.md" ~/Documents/Notes/Hugo\ Site/ ~/Documents/Hugo-Obsidian-Site/blog2/content/
 
 echo "Building site..."
 hugo
