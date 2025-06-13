@@ -1,19 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>index on EasyOnHard</title>
+    <title>EasyOnHard</title>
     <link>https://easyonhard.github.io/</link>
-    <description>Recent content in index on EasyOnHard</description>
+    <description>Recent content on EasyOnHard</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://easyonhard.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Posting</title>
-      <link>https://easyonhard.github.io/wiki/posting/</link>
-      <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://easyonhard.github.io/wiki/posting/</guid>
-      <description>&lt;p&gt;I am planning to add this folder to my GitHub Pages at &lt;a href=&#34;easyonhard.github.io&#34;&gt;easyonhard.github.io&lt;/a&gt;. I am planning on using it to host information for friends and for a passion project. My plan is to markdown write here, transcode it to HTML in Hugo, and then push it to GitHub. Shouldn&amp;rsquo;t be that mad.&lt;/p&gt;</description>
+      <title>Myfetch</title>
+      <link>https://easyonhard.github.io/projects/myfetch/</link>
+      <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://easyonhard.github.io/projects/myfetch/</guid>
+      <description>&lt;h2 id=&#34;myfetch&#34;&gt;Myfetch&lt;/h2&gt;&#xA;&lt;p&gt;I spent the majority of my day on this project &amp;ndash; and it was well worth it!&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;❯ hyperfine &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;target/release/myfetch&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;fastfetch -c ~/.config/fastfetch/config\ \(Copy\).jsonc --logo none&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;neofetch --fast --off&amp;#39;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Benchmark 1: target/release/myfetch&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  Time &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;mean ± σ&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;:     609.1 µs ± 103.2 µs    &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;User: 491.5 µs, System: 478.5 µs&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  Range &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;min … max&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;:   353.1 µs … 1058.0 µs    &lt;span style=&#34;color:#ae81ff&#34;&gt;1981&lt;/span&gt; runs&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  Warning: Command took less than &lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt; ms to complete. Note that the results might be inaccurate because hyperfine can not calibrate the shell startup time much more precise than this limit. You can try to use the &lt;span style=&#34;color:#e6db74&#34;&gt;`&lt;/span&gt;-N&lt;span style=&#34;color:#e6db74&#34;&gt;`&lt;/span&gt;/&lt;span style=&#34;color:#e6db74&#34;&gt;`&lt;/span&gt;--shell&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;none&lt;span style=&#34;color:#e6db74&#34;&gt;`&lt;/span&gt; option to disable the shell completely.&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Benchmark 2: fastfetch -c ~/.config/fastfetch/config&lt;span style=&#34;color:#ae81ff&#34;&gt;\ \(&lt;/span&gt;Copy&lt;span style=&#34;color:#ae81ff&#34;&gt;\)&lt;/span&gt;.jsonc --logo none&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  Time &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;mean ± σ&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;:       9.4 ms ±   0.3 ms    &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;User: 1.2 ms, System: 8.0 ms&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  Range &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;min … max&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;:     8.7 ms …  10.7 ms    &lt;span style=&#34;color:#ae81ff&#34;&gt;270&lt;/span&gt; runs&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Benchmark 3: neofetch --fast --off&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  Time &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;mean ± σ&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;:     176.8 ms ±   1.5 ms    &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;User: 105.2 ms, System: 79.2 ms&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  Range &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;min … max&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;:   174.0 ms … 180.0 ms    &lt;span style=&#34;color:#ae81ff&#34;&gt;17&lt;/span&gt; runs&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Summary&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  target/release/myfetch ran&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   15.51 ± 2.68 times faster than fastfetch -c ~/.config/fastfetch/config&lt;span style=&#34;color:#ae81ff&#34;&gt;\ \(&lt;/span&gt;Copy&lt;span style=&#34;color:#ae81ff&#34;&gt;\)&lt;/span&gt;.jsonc --logo none&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  290.25 ± 49.22 times faster than neofetch --fast --off&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;(Note: I won&amp;rsquo;t bring Neofetch back up, and this benchmark is technically rigged because they are both still outputting more info, but that is the Myfetch &lt;em&gt;charm&lt;/em&gt;.)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://easyonhard.github.io/fun/about/</link>
+      <pubDate>Sun, 08 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://easyonhard.github.io/fun/about/</guid>
+      <description>&lt;p&gt;This is where I am going to put stuff that I think is cool or anything &amp;ldquo;&lt;em&gt;personal&lt;/em&gt;&amp;rdquo;, like ethics or &lt;strong&gt;&lt;em&gt;maybe&lt;/em&gt;&lt;/strong&gt; politics, but I will most likely exclude that because it is a good way to stir up fights. I might write about economics, though. That stuff is fine, maybe.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fun Websites</title>
+      <link>https://easyonhard.github.io/fun/websites/</link>
+      <pubDate>Sun, 08 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://easyonhard.github.io/fun/websites/</guid>
+      <description>&lt;p&gt;This is just a list of cool websites 😁&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ana.archy.gay&#34;&gt;Ana.rchy.gay&lt;/a&gt;: Cool, slick website. Very pleasing to the eye!&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.polypompholyx.com/2017/01/modularorigami/&#34;&gt;Polypompholyx&lt;/a&gt;: Has a great demonstration of Modular Origami at work.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.last.fm&#34;&gt;Last.fm&lt;/a&gt;: Not a small site like the first two, but I use it to track my music listening. &lt;a href=&#34;https://www.last.fm/user/Nurwhalicorn&#34;&gt;You should follow me ;)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://birdsarentreal.com/&#34;&gt;Birds Aren&amp;rsquo;t Real&lt;/a&gt;: What a fantastic website, kind of like &lt;a href=&#34;https://www.spaghettimonster.org/&#34;&gt;The Church of the FSM&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>https://easyonhard.github.io/wiki/computing/hugo/</link>
+      <pubDate>Sun, 08 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://easyonhard.github.io/wiki/computing/hugo/</guid>
+      <description>&lt;h2 id=&#34;basic-setup&#34;&gt;Basic Setup&lt;/h2&gt;&#xA;&lt;p&gt;Hugo is a tool for converting markdown to HTML. It is actually quite straight forward, too! To create a new site you simply run&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo new site &amp;lt;name&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;and then you have a simple site! You can create a page using&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo new content &amp;lt;path/to/content.md&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;For example, you could create the Markdown file &amp;ldquo;Hugo&amp;rdquo; in directory &lt;code&gt;content&lt;/code&gt; by running&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo new content Hugo.md&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Easy-peasy! WHen creating files within Hugo itself files are automatically given YAML front-matter. This page uses&lt;/p&gt;</description>
     </item>
     <item>
       <title>Realms 2025</title>
@@ -21,20 +42,6 @@
       <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://easyonhard.github.io/minecraft/realms-2025/</guid>
       <description>&lt;p&gt;This year&amp;rsquo;s Realm has been a ride. It has been most easily divided into two parts: PVP and normal Minecraft. The first part ended on the &lt;strong&gt;4th of June&lt;/strong&gt;, which I recapped that day. The second part started on &lt;strong&gt;June 5th&lt;/strong&gt; at around 20:00. So far it has been quite competitive in the terms of wealth, but it has been a lot nicer. We no longer need to spend 6 hours a day on it just to make sure you don&amp;rsquo;t fall behind!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Test</title>
-      <link>https://easyonhard.github.io/wiki/test/</link>
-      <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://easyonhard.github.io/wiki/test/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Dutch</title>
-      <link>https://easyonhard.github.io/wiki/language/dutch/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://easyonhard.github.io/wiki/language/dutch/</guid>
-      <description></description>
     </item>
     <item>
       <title>Esperanto</title>

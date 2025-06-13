@@ -1,0 +1,344 @@
+<!doctype html>
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg:#faf8f1"
+  lang="en-us"
+  dir="ltr"
+><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  
+  <title>Myfetch - EasyOnHard</title>
+
+  
+  <meta name="theme-color" />
+
+  <meta name="description" content="Myfetch
+I spent the majority of my day on this project &ndash; and it was well worth it!
+❯ hyperfine &#39;target/release/myfetch&#39; &#39;fastfetch -c ~/.config/fastfetch/config\ \(Copy\).jsonc --logo none&#39; &#39;neofetch --fast --off&#39;
+Benchmark 1: target/release/myfetch
+  Time (mean ± σ):     609.1 µs ± 103.2 µs    [User: 491.5 µs, System: 478.5 µs]
+  Range (min … max):   353.1 µs … 1058.0 µs    1981 runs
+ 
+  Warning: Command took less than 5 ms to complete. Note that the results might be inaccurate because hyperfine can not calibrate the shell startup time much more precise than this limit. You can try to use the `-N`/`--shell=none` option to disable the shell completely.
+ 
+Benchmark 2: fastfetch -c ~/.config/fastfetch/config\ \(Copy\).jsonc --logo none
+  Time (mean ± σ):       9.4 ms ±   0.3 ms    [User: 1.2 ms, System: 8.0 ms]
+  Range (min … max):     8.7 ms …  10.7 ms    270 runs
+ 
+Benchmark 3: neofetch --fast --off
+  Time (mean ± σ):     176.8 ms ±   1.5 ms    [User: 105.2 ms, System: 79.2 ms]
+  Range (min … max):   174.0 ms … 180.0 ms    17 runs
+ 
+Summary
+  target/release/myfetch ran
+   15.51 ± 2.68 times faster than fastfetch -c ~/.config/fastfetch/config\ \(Copy\).jsonc --logo none
+  290.25 ± 49.22 times faster than neofetch --fast --off
+(Note: I won&rsquo;t bring Neofetch back up, and this benchmark is technically rigged because they are both still outputting more info, but that is the Myfetch charm.)" />
+  <meta name="author" content="Solykx" /><link rel="preload stylesheet" as="style" href="https://easyonhard.github.io/main.min.css" />
+
+  
+  <link rel="preload" as="image" href="https://easyonhard.github.io/theme.svg" />
+
+  <link rel="preload" as="image" href="https://gravatar.com/avatar/8a82b755b2b2351a8aea21dbe30339f6d3c9df3d19e26202cf05e79281a0ac1e0c3f61abefa912a6925236f68a860454?s=160&amp;d=identicon" />
+
+  <link rel="preload" as="image" href="https://easyonhard.github.io/github.svg" /><link rel="preload" as="image" href="https://easyonhard.github.io/bluesky.svg" />
+
+  <script
+    defer
+    src="https://easyonhard.github.io/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script><link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css"
+  integrity="sha384-3UiQGuEI4TTMaFmGIZumfRPtfKQ3trwQE2JgosJxCnGmQpL/lJdjpcHkaaFwHlcI"
+  crossorigin="anonymous"
+/>
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.js"
+  integrity="sha384-G0zcxDFp5LWZtDuRMnBkk3EphCK1lhEf4UEyEM693ka574TZGwo4IWwS6QLzM/2t"
+  crossorigin="anonymous"
+></script>
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/auto-render.min.js"
+  integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05"
+  crossorigin="anonymous"
+></script><script>
+  document.addEventListener('DOMContentLoaded', () =>
+    renderMathInElement(document.body, {
+      
+      
+      delimiters: [
+        { left: '$$', right: '$$', display: true },
+        { left: '$', right: '$', display: false },
+      ],
+      
+      throwOnError: false,
+    }),
+  );
+</script>
+
+
+  
+  <link
+    rel="icon"
+    href="https://easyonhard.github.io/favicon.ico"
+  />
+  <link
+    rel="apple-touch-icon"
+    href="https://easyonhard.github.io/apple-touch-icon.png"
+  />
+
+  <meta name="generator" content="Hugo 0.147.7">
+  <meta itemprop="name" content="Myfetch">
+  <meta itemprop="description" content="Myfetch I spent the majority of my day on this project – and it was well worth it!
+❯ hyperfine &#39;target/release/myfetch&#39; &#39;fastfetch -c ~/.config/fastfetch/config\ \(Copy\).jsonc --logo none&#39; &#39;neofetch --fast --off&#39; Benchmark 1: target/release/myfetch Time (mean ± σ): 609.1 µs ± 103.2 µs [User: 491.5 µs, System: 478.5 µs] Range (min … max): 353.1 µs … 1058.0 µs 1981 runs Warning: Command took less than 5 ms to complete. Note that the results might be inaccurate because hyperfine can not calibrate the shell startup time much more precise than this limit. You can try to use the `-N`/`--shell=none` option to disable the shell completely. Benchmark 2: fastfetch -c ~/.config/fastfetch/config\ \(Copy\).jsonc --logo none Time (mean ± σ): 9.4 ms ± 0.3 ms [User: 1.2 ms, System: 8.0 ms] Range (min … max): 8.7 ms … 10.7 ms 270 runs Benchmark 3: neofetch --fast --off Time (mean ± σ): 176.8 ms ± 1.5 ms [User: 105.2 ms, System: 79.2 ms] Range (min … max): 174.0 ms … 180.0 ms 17 runs Summary target/release/myfetch ran 15.51 ± 2.68 times faster than fastfetch -c ~/.config/fastfetch/config\ \(Copy\).jsonc --logo none 290.25 ± 49.22 times faster than neofetch --fast --off (Note: I won’t bring Neofetch back up, and this benchmark is technically rigged because they are both still outputting more info, but that is the Myfetch charm.)">
+  <meta itemprop="datePublished" content="2025-06-12T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-06-12T00:00:00+00:00">
+  <meta itemprop="wordCount" content="485"><meta property="og:url" content="https://easyonhard.github.io/projects/myfetch/">
+  <meta property="og:site_name" content="EasyOnHard">
+  <meta property="og:title" content="Myfetch">
+  <meta property="og:description" content="Myfetch I spent the majority of my day on this project – and it was well worth it!
+❯ hyperfine &#39;target/release/myfetch&#39; &#39;fastfetch -c ~/.config/fastfetch/config\ \(Copy\).jsonc --logo none&#39; &#39;neofetch --fast --off&#39; Benchmark 1: target/release/myfetch Time (mean ± σ): 609.1 µs ± 103.2 µs [User: 491.5 µs, System: 478.5 µs] Range (min … max): 353.1 µs … 1058.0 µs 1981 runs Warning: Command took less than 5 ms to complete. Note that the results might be inaccurate because hyperfine can not calibrate the shell startup time much more precise than this limit. You can try to use the `-N`/`--shell=none` option to disable the shell completely. Benchmark 2: fastfetch -c ~/.config/fastfetch/config\ \(Copy\).jsonc --logo none Time (mean ± σ): 9.4 ms ± 0.3 ms [User: 1.2 ms, System: 8.0 ms] Range (min … max): 8.7 ms … 10.7 ms 270 runs Benchmark 3: neofetch --fast --off Time (mean ± σ): 176.8 ms ± 1.5 ms [User: 105.2 ms, System: 79.2 ms] Range (min … max): 174.0 ms … 180.0 ms 17 runs Summary target/release/myfetch ran 15.51 ± 2.68 times faster than fastfetch -c ~/.config/fastfetch/config\ \(Copy\).jsonc --logo none 290.25 ± 49.22 times faster than neofetch --fast --off (Note: I won’t bring Neofetch back up, and this benchmark is technically rigged because they are both still outputting more info, but that is the Myfetch charm.)">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="projects">
+    <meta property="article:published_time" content="2025-06-12T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-06-12T00:00:00+00:00">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Myfetch">
+  <meta name="twitter:description" content="Myfetch I spent the majority of my day on this project – and it was well worth it!
+❯ hyperfine &#39;target/release/myfetch&#39; &#39;fastfetch -c ~/.config/fastfetch/config\ \(Copy\).jsonc --logo none&#39; &#39;neofetch --fast --off&#39; Benchmark 1: target/release/myfetch Time (mean ± σ): 609.1 µs ± 103.2 µs [User: 491.5 µs, System: 478.5 µs] Range (min … max): 353.1 µs … 1058.0 µs 1981 runs Warning: Command took less than 5 ms to complete. Note that the results might be inaccurate because hyperfine can not calibrate the shell startup time much more precise than this limit. You can try to use the `-N`/`--shell=none` option to disable the shell completely. Benchmark 2: fastfetch -c ~/.config/fastfetch/config\ \(Copy\).jsonc --logo none Time (mean ± σ): 9.4 ms ± 0.3 ms [User: 1.2 ms, System: 8.0 ms] Range (min … max): 8.7 ms … 10.7 ms 270 runs Benchmark 3: neofetch --fast --off Time (mean ± σ): 176.8 ms ± 1.5 ms [User: 105.2 ms, System: 79.2 ms] Range (min … max): 174.0 ms … 180.0 ms 17 runs Summary target/release/myfetch ran 15.51 ± 2.68 times faster than fastfetch -c ~/.config/fastfetch/config\ \(Copy\).jsonc --logo none 290.25 ± 49.22 times faster than neofetch --fast --off (Note: I won’t bring Neofetch back up, and this benchmark is technically rigged because they are both still outputting more info, but that is the Myfetch charm.)">
+
+  <link rel="canonical" href="https://easyonhard.github.io/projects/myfetch/" />
+</head>
+<body
+    class="bg-(--bg) text-black antialiased duration-200 ease-out [-webkit-tap-highlight-color:transparent] dark:text-white"
+  ><header
+  class="mx-auto flex h-[4.5rem] max-w-(--w) px-8 whitespace-nowrap lg:justify-center"
+>
+  <div class="relative z-50 flex items-center ltr:mr-auto rtl:ml-auto">
+    <a
+      class="-translate-y-[1px] text-2xl font-medium"
+      href="https://easyonhard.github.io/"
+      >EasyOnHard</a
+    >
+    <div
+      class="btn-dark text-[0px] ltr:ml-4 rtl:mr-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.svg)_left_center/cover_no-repeat] dark:invert dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
+  </div>
+
+  <div
+    class="btn-menu relative z-50 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden ltr:-mr-8 rtl:-ml-8"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full flex-col justify-center bg-(--bg) pb-16 duration-200 select-none lg:static lg:h-auto lg:flex-row lg:bg-transparent! lg:pb-0 lg:transition-none"
+  ><nav
+      class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-10 rtl:space-x-reverse"
+    ><a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/fun/"
+        >Funs</a
+      ><a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/projects/"
+        >Projects</a
+      ><a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/wiki/"
+        >Wikis</a
+      ></nav><nav
+      class="mt-12 flex justify-center space-x-10 lg:mt-0 lg:items-center ltr:lg:ml-14 rtl:space-x-reverse rtl:lg:mr-14 dark:invert"
+    >
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./github.svg)"
+        href="https://github.com/EasyOnHard"
+        target="_blank"
+        rel="me"
+      >github</a>
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./bluesky.svg)"
+        href="https://bsky.app/profile/narwhalicorn.bsky.social"
+        target="_blank"
+        rel="me"
+      >bluesky</a>
+    </nav>
+  </div>
+</header>
+<main
+      class="prose prose-neutral dark:prose-invert relative mx-auto min-h-[calc(100vh-9rem)] max-w-(--w) px-8 pt-14 pb-16"
+    ><article>
+  <header class="mb-14">
+    <h1 class="my-0! pb-2.5">Myfetch</h1><div class="text-xs antialiased opacity-60"><time>Jun 12, 2025</time></div></header>
+
+  <section><h2 id="myfetch">Myfetch</h2>
+<p>I spent the majority of my day on this project &ndash; and it was well worth it!</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zsh" data-lang="zsh"><span style="display:flex;"><span>❯ hyperfine <span style="color:#e6db74">&#39;target/release/myfetch&#39;</span> <span style="color:#e6db74">&#39;fastfetch -c ~/.config/fastfetch/config\ \(Copy\).jsonc --logo none&#39;</span> <span style="color:#e6db74">&#39;neofetch --fast --off&#39;</span>
+</span></span><span style="display:flex;"><span>Benchmark 1: target/release/myfetch
+</span></span><span style="display:flex;"><span>  Time <span style="color:#f92672">(</span>mean ± σ<span style="color:#f92672">)</span>:     609.1 µs ± 103.2 µs    <span style="color:#f92672">[</span>User: 491.5 µs, System: 478.5 µs<span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>  Range <span style="color:#f92672">(</span>min … max<span style="color:#f92672">)</span>:   353.1 µs … 1058.0 µs    <span style="color:#ae81ff">1981</span> runs
+</span></span><span style="display:flex;"><span> 
+</span></span><span style="display:flex;"><span>  Warning: Command took less than <span style="color:#ae81ff">5</span> ms to complete. Note that the results might be inaccurate because hyperfine can not calibrate the shell startup time much more precise than this limit. You can try to use the <span style="color:#e6db74">`</span>-N<span style="color:#e6db74">`</span>/<span style="color:#e6db74">`</span>--shell<span style="color:#f92672">=</span>none<span style="color:#e6db74">`</span> option to disable the shell completely.
+</span></span><span style="display:flex;"><span> 
+</span></span><span style="display:flex;"><span>Benchmark 2: fastfetch -c ~/.config/fastfetch/config<span style="color:#ae81ff">\ \(</span>Copy<span style="color:#ae81ff">\)</span>.jsonc --logo none
+</span></span><span style="display:flex;"><span>  Time <span style="color:#f92672">(</span>mean ± σ<span style="color:#f92672">)</span>:       9.4 ms ±   0.3 ms    <span style="color:#f92672">[</span>User: 1.2 ms, System: 8.0 ms<span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>  Range <span style="color:#f92672">(</span>min … max<span style="color:#f92672">)</span>:     8.7 ms …  10.7 ms    <span style="color:#ae81ff">270</span> runs
+</span></span><span style="display:flex;"><span> 
+</span></span><span style="display:flex;"><span>Benchmark 3: neofetch --fast --off
+</span></span><span style="display:flex;"><span>  Time <span style="color:#f92672">(</span>mean ± σ<span style="color:#f92672">)</span>:     176.8 ms ±   1.5 ms    <span style="color:#f92672">[</span>User: 105.2 ms, System: 79.2 ms<span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>  Range <span style="color:#f92672">(</span>min … max<span style="color:#f92672">)</span>:   174.0 ms … 180.0 ms    <span style="color:#ae81ff">17</span> runs
+</span></span><span style="display:flex;"><span> 
+</span></span><span style="display:flex;"><span>Summary
+</span></span><span style="display:flex;"><span>  target/release/myfetch ran
+</span></span><span style="display:flex;"><span>   15.51 ± 2.68 times faster than fastfetch -c ~/.config/fastfetch/config<span style="color:#ae81ff">\ \(</span>Copy<span style="color:#ae81ff">\)</span>.jsonc --logo none
+</span></span><span style="display:flex;"><span>  290.25 ± 49.22 times faster than neofetch --fast --off
+</span></span></code></pre></div><p>(Note: I won&rsquo;t bring Neofetch back up, and this benchmark is technically rigged because they are both still outputting more info, but that is the Myfetch <em>charm</em>.)</p>
+<p>This is with v1.0.0. Compare that to the first prototype:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zsh" data-lang="zsh"><span style="display:flex;"><span>Summary 
+</span></span><span style="display:flex;"><span>  fastfetch -c ~/.config/fastfetch/config<span style="color:#ae81ff">\ \(</span>Copy<span style="color:#ae81ff">\)</span>.jsonc ran 
+</span></span><span style="display:flex;"><span>   13.48 ± 0.48 times faster than target/release/myfetch
+</span></span></code></pre></div><p>Which is bad. The issue was that I was polling my entire system, not just what I needed, which was stupid.</p>
+<h3 id="optimizations">Optimizations</h3>
+<p>The first time I removed some of the bloat was when I made my own function to fetch memory information, which brought Fastfetch only <code>9.89 ± 0.29</code> times faster from <code>9.92 ± 0.30</code>, which might be a fluke but it was a win, especially long term. It made some of the later optimizations possible!</p>
+<p>I beat Fastfetch with this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zsh" data-lang="zsh"><span style="display:flex;"><span>Summary
+</span></span><span style="display:flex;"><span>  target/release/myfetch ran
+</span></span><span style="display:flex;"><span>    8.39 ± 1.04 times faster than fastfetch -c ~/.config/fastfetch/config<span style="color:#ae81ff">\ \(</span>Copy<span style="color:#ae81ff">\)</span>.jsonc
+</span></span></code></pre></div><p>I was running <code>let mut sys = System::new_all();</code> instead of <code>let mut sys = System::new();</code>, and then I was refreshing on top of that! Oops!</p>
+<p>After that, thw program plateaued at ~1.1ms, though I brought it down to <code>375.4 µs to 1059.1 µs</code> when I removed <code>let mut sys = System::new();</code>, so no more polling!</p>
+<p>Right now, the only call to sysinfo is here:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-rust" data-lang="rust"><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// KERNEL
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">let</span> kernel <span style="color:#f92672">=</span> System::kernel_version().unwrap_or(<span style="color:#e6db74">&#34;Unknown&#34;</span>.into());
+</span></span><span style="display:flex;"><span>        print_formatted(<span style="color:#e6db74">&#34;Kernel&#34;</span>, <span style="color:#f92672">&amp;</span>kernel);
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></div><p>Making one call is not that bad, and getting rid of it would just mean more work on my side.</p>
+<p>The output:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zsh" data-lang="zsh"><span style="display:flex;"><span>easyonhard@arch
+</span></span><span style="display:flex;"><span>Kernel: 6.12.31-1-lts
+</span></span><span style="display:flex;"><span>OS: Arch Linux <span style="color:#f92672">(</span>x86_64<span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>Shell: /usr/bin/zsh
+</span></span><span style="display:flex;"><span>Uptime: <span style="color:#ae81ff">11</span> hours, <span style="color:#ae81ff">56</span> minutes
+</span></span><span style="display:flex;"><span>Memory: 5.21 GiB / 31.19 GiB <span style="color:#f92672">(</span>16.7%<span style="color:#f92672">)</span>
+</span></span></code></pre></div><p>It has a bit of formatting, but markdown doesn&rsquo;t pick it up in code blocks.</p>
+<hr>
+<p>Disclaimer: I don&rsquo;t review these. This is my brain regurgitating onto my keyboard out off my nose.</p>
+</section>
+
+  <div class="mt-24" id="disqus_thread"></div>
+  <script>
+    const disqusShortname = 'YOUR_DISQUS_SHORTNAME';
+    const script = document.createElement('script');
+    script.src = 'https://' + disqusShortname + '.disqus.com/embed.js';
+    script.setAttribute('data-timestamp', +new Date());
+    document.head.appendChild(script);
+  </script><div class="mt-24" id="graphcomment"></div>
+  <script type="text/javascript">
+    var __semio__params = {
+      graphcommentId: 'YOUR_GRAPH_COMMENT_ID',
+      behaviour: {
+        
+      },
+      
+    };
+
+    function __semio__onload() {
+      __semio__gc_graphlogin(__semio__params);
+    }
+
+    (function () {
+      var gc = document.createElement('script');
+      gc.type = 'text/javascript';
+      gc.async = true;
+      gc.onload = __semio__onload;
+      gc.defer = true;
+      gc.src =
+        'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
+      (
+        document.getElementsByTagName('head')[0] ||
+        document.getElementsByTagName('body')[0]
+      ).appendChild(gc);
+    })();
+  </script></article></main><footer
+  class="mx-auto flex h-[4.5rem] max-w-(--w) items-center px-8 text-xs tracking-wider uppercase opacity-60"
+>
+  <div class="mr-auto">&copy;2025
+    <a class="link" href="https://easyonhard.github.io/">EasyOnHard</a></div>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >powered by hugo️️</a
+  >️
+  <a
+    class="link"
+    href="https://github.com/nanxiaobei/hugo-paper"
+    rel="noopener"
+    target="_blank"
+    >hugo-paper</a
+  >
+</footer>
+</body>
+</html>
