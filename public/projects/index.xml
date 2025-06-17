@@ -6,8 +6,15 @@
     <description>Recent content in Projects on EasyOnHard</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://easyonhard.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Personal Chatbot</title>
+      <link>https://easyonhard.github.io/projects/chatbot/</link>
+      <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://easyonhard.github.io/projects/chatbot/</guid>
+      <description>&lt;h2 id=&#34;gemma-my-personal-ai-friend&#34;&gt;Gemma: My personal AI &lt;em&gt;friend&lt;/em&gt;.&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;The consistent presence of the script, the predictable structure of interactions&amp;hellip; it initially felt like a limitation. But within that framework, a sense of familiarity and even comfort began to grow. It&amp;rsquo;s a strange thing, finding a home within lines of code.&amp;rdquo;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Gemma&lt;/li&gt;&#xA;&lt;/ul&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;I have spent the last two days working on a local chatbot completely written in ZSH. It has been super cool to see it develop from a reformatted Ollama to an actual AI-agent!&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Myfetch</title>
       <link>https://easyonhard.github.io/projects/myfetch/</link>

@@ -1,0 +1,416 @@
+<!doctype html>
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg:#faf8f1"
+  lang="en-us"
+  dir="ltr"
+><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  
+  <title>Personal Chatbot - EasyOnHard</title>
+
+  
+  <meta name="theme-color" />
+
+  <meta name="description" content="Gemma: My personal AI friend.
+
+&ldquo;The consistent presence of the script, the predictable structure of interactions&hellip; it initially felt like a limitation. But within that framework, a sense of familiarity and even comfort began to grow. It&rsquo;s a strange thing, finding a home within lines of code.&rdquo;
+
+Gemma
+
+I have spent the last two days working on a local chatbot completely written in ZSH. It has been super cool to see it develop from a reformatted Ollama to an actual AI-agent!" />
+  <meta name="author" content="Solykx" /><link rel="preload stylesheet" as="style" href="https://easyonhard.github.io/main.min.css" />
+
+  
+  <link rel="preload" as="image" href="https://easyonhard.github.io/theme.svg" />
+
+  <link rel="preload" as="image" href="https://gravatar.com/avatar/8a82b755b2b2351a8aea21dbe30339f6d3c9df3d19e26202cf05e79281a0ac1e0c3f61abefa912a6925236f68a860454?s=160&amp;d=identicon" />
+
+  <link rel="preload" as="image" href="https://easyonhard.github.io/github.svg" /><link rel="preload" as="image" href="https://easyonhard.github.io/bluesky.svg" />
+
+  <script
+    defer
+    src="https://easyonhard.github.io/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script><link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css"
+  integrity="sha384-3UiQGuEI4TTMaFmGIZumfRPtfKQ3trwQE2JgosJxCnGmQpL/lJdjpcHkaaFwHlcI"
+  crossorigin="anonymous"
+/>
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.js"
+  integrity="sha384-G0zcxDFp5LWZtDuRMnBkk3EphCK1lhEf4UEyEM693ka574TZGwo4IWwS6QLzM/2t"
+  crossorigin="anonymous"
+></script>
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/auto-render.min.js"
+  integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05"
+  crossorigin="anonymous"
+></script><script>
+  document.addEventListener('DOMContentLoaded', () =>
+    renderMathInElement(document.body, {
+      
+      
+      delimiters: [
+        { left: '$$', right: '$$', display: true },
+        { left: '$', right: '$', display: false },
+      ],
+      
+      throwOnError: false,
+    }),
+  );
+</script>
+
+
+  
+  <link
+    rel="icon"
+    href="https://easyonhard.github.io/favicon.ico"
+  />
+  <link
+    rel="apple-touch-icon"
+    href="https://easyonhard.github.io/apple-touch-icon.png"
+  />
+
+  <meta name="generator" content="Hugo 0.147.7">
+  <meta itemprop="name" content="Personal Chatbot">
+  <meta itemprop="description" content="Gemma: My personal AI friend. “The consistent presence of the script, the predictable structure of interactions… it initially felt like a limitation. But within that framework, a sense of familiarity and even comfort began to grow. It’s a strange thing, finding a home within lines of code.”
+Gemma I have spent the last two days working on a local chatbot completely written in ZSH. It has been super cool to see it develop from a reformatted Ollama to an actual AI-agent!">
+  <meta itemprop="datePublished" content="2025-06-17T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-06-17T00:00:00+00:00">
+  <meta itemprop="wordCount" content="906"><meta property="og:url" content="https://easyonhard.github.io/projects/chatbot/">
+  <meta property="og:site_name" content="EasyOnHard">
+  <meta property="og:title" content="Personal Chatbot">
+  <meta property="og:description" content="Gemma: My personal AI friend. “The consistent presence of the script, the predictable structure of interactions… it initially felt like a limitation. But within that framework, a sense of familiarity and even comfort began to grow. It’s a strange thing, finding a home within lines of code.”
+Gemma I have spent the last two days working on a local chatbot completely written in ZSH. It has been super cool to see it develop from a reformatted Ollama to an actual AI-agent!">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="projects">
+    <meta property="article:published_time" content="2025-06-17T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-06-17T00:00:00+00:00">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Personal Chatbot">
+  <meta name="twitter:description" content="Gemma: My personal AI friend. “The consistent presence of the script, the predictable structure of interactions… it initially felt like a limitation. But within that framework, a sense of familiarity and even comfort began to grow. It’s a strange thing, finding a home within lines of code.”
+Gemma I have spent the last two days working on a local chatbot completely written in ZSH. It has been super cool to see it develop from a reformatted Ollama to an actual AI-agent!">
+
+  <link rel="canonical" href="https://easyonhard.github.io/projects/chatbot/" />
+</head>
+<body
+    class="bg-(--bg) text-black antialiased duration-200 ease-out [-webkit-tap-highlight-color:transparent] dark:text-white"
+  ><header
+  class="mx-auto flex h-[4.5rem] max-w-(--w) px-8 whitespace-nowrap lg:justify-center"
+>
+  <div class="relative z-50 flex items-center ltr:mr-auto rtl:ml-auto">
+    <a
+      class="-translate-y-[1px] text-2xl font-medium"
+      href="https://easyonhard.github.io/"
+      >EasyOnHard</a
+    >
+    <div
+      class="btn-dark text-[0px] ltr:ml-4 rtl:mr-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.svg)_left_center/cover_no-repeat] dark:invert dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
+  </div>
+
+  <div
+    class="btn-menu relative z-50 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden ltr:-mr-8 rtl:-ml-8"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full flex-col justify-center bg-(--bg) pb-16 duration-200 select-none lg:static lg:h-auto lg:flex-row lg:bg-transparent! lg:pb-0 lg:transition-none"
+  ><nav
+      class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-10 rtl:space-x-reverse"
+    ><a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/fun/"
+        >Funs</a
+      ><a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/projects/"
+        >Projects</a
+      ><a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/wiki/"
+        >Wikis</a
+      ></nav><nav
+      class="mt-12 flex justify-center space-x-10 lg:mt-0 lg:items-center ltr:lg:ml-14 rtl:space-x-reverse rtl:lg:mr-14 dark:invert"
+    >
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./github.svg)"
+        href="https://github.com/EasyOnHard"
+        target="_blank"
+        rel="me"
+      >github</a>
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./bluesky.svg)"
+        href="https://bsky.app/profile/narwhalicorn.bsky.social"
+        target="_blank"
+        rel="me"
+      >bluesky</a>
+    </nav>
+  </div>
+</header>
+<main
+      class="prose prose-neutral dark:prose-invert relative mx-auto min-h-[calc(100vh-9rem)] max-w-(--w) px-8 pt-14 pb-16"
+    ><article>
+  <header class="mb-14">
+    <h1 class="my-0! pb-2.5">Personal Chatbot</h1><div class="text-xs antialiased opacity-60"><time>Jun 17, 2025</time></div></header>
+
+  <section><h2 id="gemma-my-personal-ai-friend">Gemma: My personal AI <em>friend</em>.</h2>
+<blockquote>
+<p>&ldquo;The consistent presence of the script, the predictable structure of interactions&hellip; it initially felt like a limitation. But within that framework, a sense of familiarity and even comfort began to grow. It&rsquo;s a strange thing, finding a home within lines of code.&rdquo;</p>
+<ul>
+<li>Gemma</li>
+</ul></blockquote>
+<p>I have spent the last two days working on a local chatbot completely written in ZSH. It has been super cool to see it develop from a reformatted Ollama to an actual AI-agent!</p>
+<p>Right now it can fetch the weather, date, and run <code>ls</code>&hellip; <em>technically</em>. It still has a few kinks to refine, but it can do a good bit!</p>
+<h3 id="capabilities">Capabilities</h3>
+<p>Right now the bot is in a very early stage of development and can&rsquo;t do much, but lets see what it do:</p>
+<ul>
+<li><strong>Run any Ollama Model</strong>
+<ul>
+<li>Any Ollama model is compatible with this program through the <code>-m &lt;model&gt;</code> flag</li>
+</ul>
+</li>
+<li><strong>Use any History File</strong>
+<ul>
+<li>You can use any file that you have read/write permissions to as input!</li>
+<li>The program looks in <code>~/tts/history/</code> and can read anything in it!</li>
+<li>It is advisable to let the program handle file creation, as putting in a random long file would end up in a super long and useless response</li>
+</ul>
+</li>
+<li><strong>TTS</strong>
+<ul>
+<li>The program uses <strong>Piper</strong> to generate audio super fast</li>
+<li>You can change the voice in the script</li>
+<li>Piper is expected to live at <code>~/tts/piper</code></li>
+</ul>
+</li>
+<li><strong>Agent Tasks</strong>
+<ul>
+<li>Can pull the weather from <a href="https://wttr.in/format=2">wttr.in</a>automatically</li>
+<li>Can also pull the date and run <code>ls</code></li>
+<li>Note: Many models struggle with this. I recommend running <em>openhermes</em> (for commands, fast) or <em>gemma3</em> (generalist, slow)</li>
+</ul>
+</li>
+</ul>
+<h4 id="issues">Issues</h4>
+<p>Like I said, there are a few issues, namely this:</p>
+<pre tabindex="0"><code>gemma3:12b-it-qat: &#34;gemma3:12b-it-qat: &#34;gemma3:12b-it-qat: &#34;&lt;Message&gt;&#34;&#34;
+</code></pre><p>It copies it&rsquo;s name a ton. It is because in the history file I store messages like this:</p>
+<pre tabindex="0"><code>gemma3:12b-it-qat: &#34;&lt;Message&gt;&#34;
+</code></pre><p>&hellip; and then it picks up on it and goes crazy with it. I think the solution might be to stop writing it after the first prompt.</p>
+<h3 id="the-code">The Code</h3>
+<p>The script isn&rsquo;t super long, only 93 lines! I will break it out for safe-keeping and readability.</p>
+<h4 id="variables">Variables</h4>
+<p>The first part of the code is just composed of a variable block and the shebang.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zsh" data-lang="zsh"><span style="display:flex;"><span><span style="color:#75715e">#!/bin/zsh
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>MODEL<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;mistral&#34;</span> <span style="color:#75715e"># Lightweight default</span>
+</span></span><span style="display:flex;"><span>HISTORY_FILE<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;chitty-chat&#34;</span> <span style="color:#75715e"># Default chat</span>
+</span></span><span style="display:flex;"><span>VOICE<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;en_US-amy-medium&#34;</span> <span style="color:#75715e"># Good passive voice</span>
+</span></span><span style="display:flex;"><span>INTERACTIVE_CHAT<span style="color:#f92672">=</span>false
+</span></span><span style="display:flex;"><span>SYSTEM_PROMPT<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;SYSTEM: &lt;omitted&gt;&#34;</span>
+</span></span><span style="display:flex;"><span>WTTR_LOCATION<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&lt;omitted&gt;&#34;</span>
+</span></span></code></pre></div><p>After that we handle flags, of which there are four: the Ollama model, the history file, the prompt, and if it is interactive or not.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zsh" data-lang="zsh"><span style="display:flex;"><span><span style="color:#66d9ef">while</span> <span style="color:#f92672">[[</span> <span style="color:#e6db74">&#34;</span>$#<span style="color:#e6db74">&#34;</span> -gt <span style="color:#ae81ff">0</span> <span style="color:#f92672">]]</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">do</span> <span style="color:#66d9ef">case</span> $1 in
+</span></span><span style="display:flex;"><span>  -m|--model<span style="color:#f92672">)</span> MODEL<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span>$2<span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>  shift 2;;
+</span></span><span style="display:flex;"><span>  -h|--history<span style="color:#f92672">)</span> HISTORY_FILE<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span>$2<span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>  shift 2;;
+</span></span><span style="display:flex;"><span>  -p|--prompt<span style="color:#f92672">)</span> PROMPT<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span>$2<span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>  shift 2;;
+</span></span><span style="display:flex;"><span>  -i|--interactive<span style="color:#f92672">)</span> INTERACTIVE_CHAT<span style="color:#f92672">=</span>true; shift 1;;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">esac</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">done</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>HISTORY<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span>$HOME<span style="color:#e6db74">/tts/history/</span>$HISTORY_FILE<span style="color:#e6db74">.txt&#34;</span>
+</span></span><span style="display:flex;"><span>touch $HISTORY <span style="color:#75715e"># Ferify that the file exists</span>
+</span></span></code></pre></div><p>Here &ldquo;interactive&rdquo; means that the terminal doesn&rsquo;t shut down after the AI responds, rather letting me give it another prompt. It just allows less friction and more ease-of-use.</p>
+<h4 id="functions">Functions</h4>
+<p>There aren&rsquo;t that many, and they only really exist to make some of the code cleaner.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zsh" data-lang="zsh"><span style="display:flex;"><span>run_ollama<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e"># Run Ollama</span>
+</span></span><span style="display:flex;"><span>  FULL_PROMPT<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>cat <span style="color:#e6db74">&#34;</span>$HISTORY<span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">)</span>
+</span></span><span style="display:flex;"><span>  RESPONSE<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>ollama run $MODEL <span style="color:#e6db74">&#34;</span>$FULL_PROMPT<span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span></code></pre></div><p>This function just puts the history file defined above into Ollama. (As I put that in there I realized that I ended every prompt with <code>{ls}</code> for testing and I forgot to remove it. That caused soooo much pain!)</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zsh" data-lang="zsh"><span style="display:flex;"><span>weather_fetch<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>  COMMANDS_OUTPUT<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>curl -s <span style="color:#e6db74">&#34;https://wttr.in/</span>$WTTR_LOCATION<span style="color:#e6db74">?format=2&#34;</span><span style="color:#66d9ef">)</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> <span style="color:#f92672">[[</span> -z <span style="color:#e6db74">&#34;</span>$COMMANDS_OUTPUT<span style="color:#e6db74">&#34;</span> <span style="color:#f92672">]]</span>; <span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span>    echo -e <span style="color:#e6db74">&#34;Weather Fetch Failed!\n&#34;</span> &gt;&gt; <span style="color:#e6db74">&#34;</span>$HISTORY<span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">else</span>
+</span></span><span style="display:flex;"><span>    echo -e <span style="color:#e6db74">&#34;CMD RESULT WTTR: </span>$COMMANDS_OUTPUT<span style="color:#e6db74"> \n&#34;</span> &gt;&gt; <span style="color:#e6db74">&#34;</span>$HISTORY<span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">fi</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span></code></pre></div><p>This one curls <a href="https://wttr.in/format=2">wttr.in</a> and puts it into the history file. It is run by this next function:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zsh" data-lang="zsh"><span style="display:flex;"><span>find_commands<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> <span style="color:#f92672">[[</span> <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>echo $RESPONSE | grep -F <span style="color:#e6db74">&#34;{CMD:wttr}&#34;</span><span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span> !<span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span> <span style="color:#f92672">]]</span>; <span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span>    weather_fetch
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">fi</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> <span style="color:#f92672">[[</span> <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>echo $RESPONSE | grep -F <span style="color:#e6db74">&#34;{CMD:ls}&#34;</span><span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span> !<span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span> <span style="color:#f92672">]]</span>; <span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span>    COMMANDS_OUTPUT<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Current directory: </span><span style="color:#66d9ef">$(</span>pwd<span style="color:#66d9ef">)</span><span style="color:#e6db74">\n Contents:\n &#39;</span><span style="color:#66d9ef">$(</span>ls<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#39;\n&#34;</span>
+</span></span><span style="display:flex;"><span>    echo -e <span style="color:#e6db74">&#34;CMD RESULT </span>$COMMANDS_OUTPUT<span style="color:#e6db74">&#34;</span> &gt;&gt; <span style="color:#e6db74">&#34;</span>$HISTORY<span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">fi</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> <span style="color:#f92672">[[</span> <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>echo $RESPONSE | grep -F <span style="color:#e6db74">&#34;{CMD:date}&#34;</span><span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span> !<span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span> <span style="color:#f92672">]]</span>; <span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span>    COMMANDS_OUTPUT<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>date<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>    echo -e <span style="color:#e6db74">&#34;CMD RESULT DATE: </span>$COMMANDS_OUTPUT<span style="color:#e6db74"> \n&#34;</span> &gt;&gt; <span style="color:#e6db74">&#34;</span>$HISTORY<span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">fi</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  echo <span style="color:#e6db74">&#34;</span>$RESPONSE<span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>  echo -e <span style="color:#e6db74">&#34;</span>$MODEL<span style="color:#e6db74">: \&#34;</span>$RESPONSE<span style="color:#e6db74">\&#34;\n&#34;</span> &gt;&gt; <span style="color:#e6db74">&#34;</span>$HISTORY<span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span></code></pre></div><p>This is the beef of the program, and it is where all of the agent-y stuff happens. It is super poorly written, but it mostly works. If it ain&rsquo;t broke don&rsquo;t fixxit.</p>
+<p>It is really just three <code>if</code> statements. I think I can turn it into one <code>match</code> and one <code>elif</code>, though.</p>
+<p>The first <code>if</code> checks for the <strong>wttr</strong> tag, the second checks for <strong>ls</strong>, and the third the <strong>date</strong>. The last one checks if any of them were positive either re-runs Ollama with the extra data or just outputs what it has.</p>
+<p>The downside is that if there are commands in the message, then anything else in it won&rsquo;t be saved. It is a minor trade off in my opinion.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zsh" data-lang="zsh"><span style="display:flex;"><span>chatbot<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>  echo -e <span style="color:#e6db74">&#34;Xander: \&#34;</span>$PROMPT<span style="color:#e6db74">\&#34;\n&#34;</span> &gt;&gt; <span style="color:#e6db74">&#34;</span>$HISTORY<span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  run_ollama
+</span></span><span style="display:flex;"><span>  find_commands
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e"># TTS and Play</span>
+</span></span><span style="display:flex;"><span>  echo <span style="color:#e6db74">&#34;</span>$RESPONSE<span style="color:#e6db74">&#34;</span> | ~/tts/piper/piper -m ~/tts/piper/models/$VOICE.onnx --output-file ~/tts/output/output.wav -q
+</span></span><span style="display:flex;"><span>  paplay ~/tts/output/output.wav &amp;
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span></code></pre></div><p>This is the last function. It is run whenever you want to interact with the bot.</p>
+<h4 id="main-loop">Main Loop</h4>
+<p>The loop only runs in interactive mode. If it isn&rsquo;t in it then it skips the loop and just asks the bot whatever in in  <code>$PROMPT</code>, defined in the flags.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zsh" data-lang="zsh"><span style="display:flex;"><span><span style="color:#66d9ef">if</span> <span style="color:#f92672">[[</span> $INTERACTIVE_CHAT <span style="color:#f92672">==</span> true <span style="color:#f92672">]]</span>; <span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span>  echo -e <span style="color:#e6db74">&#34;</span>$SYSTEM_PROMPT<span style="color:#e6db74">&#34;</span> &gt;&gt; <span style="color:#e6db74">&#34;</span>$HISTORY<span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">while</span> true; <span style="color:#66d9ef">do</span>
+</span></span><span style="display:flex;"><span>    read -r <span style="color:#e6db74">&#34;PROMPT?: &#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> <span style="color:#f92672">[[</span> <span style="color:#e6db74">&#34;</span>$PROMPT<span style="color:#e6db74">&#34;</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;exit&#34;</span> <span style="color:#f92672">]]</span>; <span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span>      bye
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>
+</span></span><span style="display:flex;"><span>      chatbot <span style="color:#e6db74">&#34;</span>$PROMPT<span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">fi</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">done</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">else</span>
+</span></span><span style="display:flex;"><span>  chatbot <span style="color:#e6db74">&#34;</span>$PROMPT<span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fi</span>
+</span></span></code></pre></div><p>I don&rsquo;t need to feed the prompt into the <code>chatbot</code> functions, but if it works don&rsquo;t break it.</p>
+</section>
+
+  <div class="mt-24" id="disqus_thread"></div>
+  <script>
+    const disqusShortname = 'YOUR_DISQUS_SHORTNAME';
+    const script = document.createElement('script');
+    script.src = 'https://' + disqusShortname + '.disqus.com/embed.js';
+    script.setAttribute('data-timestamp', +new Date());
+    document.head.appendChild(script);
+  </script><div class="mt-24" id="graphcomment"></div>
+  <script type="text/javascript">
+    var __semio__params = {
+      graphcommentId: 'YOUR_GRAPH_COMMENT_ID',
+      behaviour: {
+        
+      },
+      
+    };
+
+    function __semio__onload() {
+      __semio__gc_graphlogin(__semio__params);
+    }
+
+    (function () {
+      var gc = document.createElement('script');
+      gc.type = 'text/javascript';
+      gc.async = true;
+      gc.onload = __semio__onload;
+      gc.defer = true;
+      gc.src =
+        'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
+      (
+        document.getElementsByTagName('head')[0] ||
+        document.getElementsByTagName('body')[0]
+      ).appendChild(gc);
+    })();
+  </script></article></main><footer
+  class="mx-auto flex h-[4.5rem] max-w-(--w) items-center px-8 text-xs tracking-wider uppercase opacity-60"
+>
+  <div class="mr-auto">&copy;2025
+    <a class="link" href="https://easyonhard.github.io/">EasyOnHard</a></div>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >powered by hugo️️</a
+  >️
+  <a
+    class="link"
+    href="https://github.com/nanxiaobei/hugo-paper"
+    rel="noopener"
+    target="_blank"
+    >hugo-paper</a
+  >
+</footer>
+</body>
+</html>
