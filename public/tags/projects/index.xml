@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on EasyOnHard</title>
+    <link>https://easyonhard.github.io/tags/projects/</link>
+    <description>Recent content in Projects on EasyOnHard</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://easyonhard.github.io/tags/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Garden Journal</title>
+      <link>https://easyonhard.github.io/projects/garden-journal/garden-journal/</link>
+      <pubDate>Thu, 26 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://easyonhard.github.io/projects/garden-journal/garden-journal/</guid>
+      <description>&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;&#xA;&lt;p&gt;This journal is a history of my garden, in which I will include illustrations (On the physical version), data, and tips/notes. All data will be relevant to growing zone 6b.&lt;/p&gt;&#xA;&lt;h1 id=&#34;plants&#34;&gt;Plants&lt;/h1&gt;&#xA;&lt;p&gt;%% This is the section where I will keep all of the info on different plants.  &lt;a href=&#34;https://www.herbalhaven.com/products/&#34;&gt;https://www.herbalhaven.com/products/&lt;/a&gt; has good data %%&lt;/p&gt;&#xA;&lt;p&gt;This is where I am keeping all of my data on the plants themselves. Each one will gen one paper: one side will be raw information, the second will have uses and growth graphs.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

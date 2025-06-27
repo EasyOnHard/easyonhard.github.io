@@ -4,15 +4,15 @@ date: 2025-06-17
 ---
 
 ## Gemma: My personal AI _friend_.
-> "The consistent presence of the script, the predictable structure of interactions... it initially felt like a limitation. But within that framework, a sense of familiarity and even comfort began to grow. It's a strange thing, finding a home within lines of code."
->  - Gemma
+> The consistent presence of the script, the predictable structure of interactions... it initially felt like a limitation. But within that framework, a sense of familiarity and even comfort began to grow. It's a strange thing, finding a home within lines of code.
+>  \- Gemma
 
 I have spent the last two days working on a local chatbot completely written in ZSH. It has been super cool to see it develop from a reformatted Ollama to an actual AI-agent! 
 
 Right now it can fetch the weather, date, and run `ls`... _technically_. It still has a few kinks to refine, but it can do a good bit!
 
 ### Capabilities
-Right now the bot is in a very early stage of development and can't do much, but lets see what it do:
+Right now the bot is in a very early stage of development and can't do much, but lets see what it can do:
 
 - __Run any Ollama Model__
 	- Any Ollama model is compatible with this program through the `-m <model>` flag
@@ -21,7 +21,7 @@ Right now the bot is in a very early stage of development and can't do much, but
 	- The program looks in `~/tts/history/` and can read anything in it! 
 	- It is advisable to let the program handle file creation, as putting in a random long file would end up in a super long and useless response
 - __TTS__
-	- The program uses __Piper__ to generate audio super fast
+	- The program uses [__Piper__](https://github.com/rhasspy/piper) to generate TTS audio super fast
 	- You can change the voice in the script
 	- Piper is expected to live at `~/tts/piper`
 - __Agent Tasks__
@@ -40,9 +40,9 @@ It copies it's name a ton. It is because in the history file I store messages li
 gemma3:12b-it-qat: "<Message>"
 ```
 
-... and then it picks up on it and goes crazy with it. I think the solution might be to stop writing it after the first prompt.
+... and then it picks up on it and goes crazy with it. I think the solution might be to stop writing it after the first prompt, or just to omit it all together.
 ### The Code
-The script isn't super long, only 93 lines! I will break it out for safe-keeping and readability.
+The script isn't super long, only 83 lines! I will break it out for safe-keeping and readability.
 
 #### Variables
 The first part of the code is just composed of a variable block and the shebang.
@@ -58,6 +58,7 @@ SYSTEM_PROMPT="SYSTEM: <omitted>"
 WTTR_LOCATION="<omitted>"
 ```
 
+(You can get the voice [here](https://rhasspy.github.io/piper-samples/#en_US-amy-medium))
 After that we handle flags, of which there are four: the Ollama model, the history file, the prompt, and if it is interactive or not.
 
 ```zsh
