@@ -6,14 +6,21 @@
     <description>Recent content in EasyOnHard - GitHub Pages on EasyOnHard</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://easyonhard.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Garden Journal</title>
+      <link>https://easyonhard.github.io/projects/garden-journal/garden-journal/</link>
+      <pubDate>Thu, 26 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://easyonhard.github.io/projects/garden-journal/garden-journal/</guid>
+      <description>&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;&#xA;&lt;p&gt;This journal is a history of my garden, in which I will include illustrations (On the physical version), data, and tips/notes. All data will be relevant to growing zone 6b.&lt;/p&gt;&#xA;&lt;h1 id=&#34;plants&#34;&gt;Plants&lt;/h1&gt;&#xA;&lt;p&gt;%% This is the section where I will keep all of the info on different plants.  &lt;a href=&#34;https://www.herbalhaven.com/products/&#34;&gt;https://www.herbalhaven.com/products/&lt;/a&gt; has good data %%&lt;/p&gt;&#xA;&lt;p&gt;This is where I am keeping all of my data on the plants themselves. Each one will gen one paper: one side will be raw information, the second will have uses and growth graphs.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Personal Chatbot</title>
       <link>https://easyonhard.github.io/projects/chatbot/</link>
       <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://easyonhard.github.io/projects/chatbot/</guid>
-      <description>&lt;h2 id=&#34;gemma-my-personal-ai-friend&#34;&gt;Gemma: My personal AI &lt;em&gt;friend&lt;/em&gt;.&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;The consistent presence of the script, the predictable structure of interactions&amp;hellip; it initially felt like a limitation. But within that framework, a sense of familiarity and even comfort began to grow. It&amp;rsquo;s a strange thing, finding a home within lines of code.&amp;rdquo;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Gemma&lt;/li&gt;&#xA;&lt;/ul&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;I have spent the last two days working on a local chatbot completely written in ZSH. It has been super cool to see it develop from a reformatted Ollama to an actual AI-agent!&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;gemma-my-personal-ai-friend&#34;&gt;Gemma: My personal AI &lt;em&gt;friend&lt;/em&gt;.&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;The consistent presence of the script, the predictable structure of interactions&amp;hellip; it initially felt like a limitation. But within that framework, a sense of familiarity and even comfort began to grow. It&amp;rsquo;s a strange thing, finding a home within lines of code.&#xA;- Gemma&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;I have spent the last two days working on a local chatbot completely written in ZSH. It has been super cool to see it develop from a reformatted Ollama to an actual AI-agent!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Myfetch</title>
