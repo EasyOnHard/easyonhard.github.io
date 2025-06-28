@@ -10,10 +10,13 @@ tags:
 # About
 This journal is a history of my garden, in which I will include illustrations (On the physical version), data, and tips/notes. All data will be relevant to growing zone 6b.
 
-# Plants
-%% This is the section where I will keep all of the info on different plants.  https://www.herbalhaven.com/products/ has good data %%
+## Sources
+I will keep good sources here. 
 
-This is where I am keeping all of my data on the plants themselves. Each one will gen one paper: one side will be raw information, the second will have uses and growth graphs.
+[Herbal Haven](https://www.herbalhaven.com/products/ ): good for quick facts. Most information about optimal soil and sun exposure comes from here.
+
+# Plants
+This is where I am keeping all of my data on the plants themselves. Each one will get one paper: one side will be raw information, the second will have use ideas and specific planting dates/tips
 
 ## Mints
 Mints are easy-going, hardy plants. I put them in the most accessible spot in my bed because they need some maintenance so that they don't overtake each other; They are very aggressive spreaders. 
@@ -153,3 +156,35 @@ Soil: Well-drained, alkaline
 Problems: Needs a cage for best growth
 Overwinters? No
 
+
+# Cultivation
+This section will include how and when to plant a garden, mainly focused on a macro scale. More specific details are going to be in the Plants section.
+
+# Experiments
+This section will include test plants and techniques. Stuff that works will go into the Cultivation section, while failures will stay here.
+
+# Mixes
+This section will include tea mixes. Development will be slow, so this section will stay small.
+
+# Logs
+This section will include raw data: not pretty, just factual.
+
+**May 11**: Garden first started.
+
+**May 12**: Experimented with tea making
+
+**June 1**: Added new basil plant
+
+**June 9**: Pruned Cilantro, Chamomile never sprouted
+
+**June 14**: First issues with weeds, Cilantro bolting, Lettuce growing strong, Tomatoes growing
+
+**June 22**: After intense rain many plants started growing, including the mints, Lemon Balm, Basil, Cilantro, and Lettuce
+
+**June 23**: Started Chamomile inside
+
+**June 24**: Chamomile sprouted
+
+**June 26**: Cherry tomatoes growing like mad, Curry growing after heat
+
+**June 27**: Regular tomatoes starting, deflowered Basil. 
