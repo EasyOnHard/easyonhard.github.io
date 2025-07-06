@@ -7,9 +7,7 @@ This is my new Hugo site. I am making it to learn, advertise, and to host my "bl
 
 The [Wiki](/wiki) is where I will host information. Right now it doesn't have much but I think it could end up being quite useful!
 
-[Projects](Projects) is where I will advertise my GitHub repos and side projects. They will most likely just be summaries of the READMEs plus a picture, but there also may be exclusive stuff there.
-
-I am currently on vacation until July 6th.
+[Projects](projects) is where I advertise my GitHub repos and side projects. They will most likely just be summaries of the READMEs plus a picture, but there also may be exclusive stuff there.
 ## Inspiration
 I started this when I wanted to host Minecraft information, and then I saw a YouTube video about incorporating Obsidian MD into Hugo and I immediately set it up. It took a few hours but it was well worth it! Below is the tutorial I used.
 
