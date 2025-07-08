@@ -142,7 +142,7 @@ Scientific: _Solanum lycopersicum_
 
 %% Leaf Shape Sketch %%
 
-Tomatoes are one of the easiest and best vegetables that you can grow. They are pretty much plant and harvest and they don't require much pruning, if any.
+Tomatoes are one of the easiest and best vegetables that you can grow. They are pretty much plant and harvest and they don't require much pruning, if any. Do be aware of deer, though.
 
 There are many varieties of tomatoes, and each one has different behaviors. Most benefit from a cage/trellis and good soil. 
 They are most often divided into two groups: 
@@ -188,3 +188,11 @@ This section will include raw data: not pretty, just factual.
 **June 26**: Cherry tomatoes growing like mad, Curry growing after heat
 
 **June 27**: Regular tomatoes starting, deflowered Basil. 
+
+**July 6**: Weeds out of control, deer eating Tomato and Cactus
+
+
+
+
+
+

@@ -60,3 +60,11 @@ Here are **Hebben** (_to have_) and **Gaan** (_to go_):
 | 1st    | wil      | willen |
 | 2nd    | wilt     | willen |
 | 3rd    | wil      | willen |
+
+**Moeten** means _to have to_, as in "**Moet ik hier afslaan?**"
+
+| Moeten | Singular | Plural |
+| ------ | -------- | ------ |
+| 1st    | moet     | moeten |
+| 2nd    | moet     | moeten |
+| 3rd    | moet     | moeten |
