@@ -191,6 +191,8 @@ This section will include raw data: not pretty, just factual.
 
 **July 6**: Weeds out of control, deer eating Tomato and Cactus
 
+**July 14**: Tomato plants grew ~2ft after rain, mints growing strong
+
 
 
 

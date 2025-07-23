@@ -1,7 +1,8 @@
 ---
 title: Hugo
 Date: 2025-06-08
-tags:
+tags: 
+ - digital
 ---
 ## Basic Setup
 Hugo is a tool for converting markdown to HTML. It is actually quite straight forward, too! To create a new site you simply run

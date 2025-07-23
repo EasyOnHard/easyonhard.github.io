@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digital on EasyOnHard</title>
+    <link>https://easyonhard.github.io/tags/digital/</link>
+    <description>Recent content in Digital on EasyOnHard</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://easyonhard.github.io/tags/digital/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo</title>
+      <link>https://easyonhard.github.io/wiki/computing/hugo/</link>
+      <pubDate>Sun, 08 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://easyonhard.github.io/wiki/computing/hugo/</guid>
+      <description>&lt;h2 id=&#34;basic-setup&#34;&gt;Basic Setup&lt;/h2&gt;&#xA;&lt;p&gt;Hugo is a tool for converting markdown to HTML. It is actually quite straight forward, too! To create a new site you simply run&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo new site &amp;lt;name&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;and then you have a simple site! You can create a page using&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo new content &amp;lt;path/to/content.md&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;For example, you could create the Markdown file &amp;ldquo;Hugo&amp;rdquo; in directory &lt;code&gt;content&lt;/code&gt; by running&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo new content Hugo.md&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Easy-peasy! WHen creating files within Hugo itself files are automatically given YAML front-matter. This page uses&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
