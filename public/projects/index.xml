@@ -6,8 +6,15 @@
     <description>Recent content in Projects on EasyOnHard</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://easyonhard.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Command Line Utilities</title>
+      <link>https://easyonhard.github.io/projects/cli-fun/</link>
+      <pubDate>Wed, 23 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://easyonhard.github.io/projects/cli-fun/</guid>
+      <description>&lt;p&gt;I have recently been playing around a bit in the CLI, trying to make it more useful for &lt;em&gt;me&lt;/em&gt;. It is one of my favorite things about Linux: the ability to make a super efficient workflow.&lt;/p&gt;&#xA;&lt;p&gt;The best thing: you can do almost anything through scripting, which is easier and more powerful than Python.&lt;/p&gt;&#xA;&lt;h2 id=&#34;notezsh&#34;&gt;note.zsh&lt;/h2&gt;&#xA;&lt;p&gt;This is a simple ZSH script that simpily makes a .md file, designed for Obsidian, and adds some data.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Garden Journal</title>
       <link>https://easyonhard.github.io/projects/garden-journal/garden-journal/</link>

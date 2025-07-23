@@ -1,6 +1,6 @@
 ---
 title: Command Line Utilities
-draft: true
+draft: false
 date: 2025-07-23
 tags: 
  - digital
