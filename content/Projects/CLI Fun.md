@@ -18,7 +18,7 @@ This is a simple ZSH script that simpily makes a .md file, designed for Obsidian
 # Get File Name, Data, and Location
 name="$(date +%Y-%m-%d\|%H:%M)"
 data=""
-template="<Frontmatter>"
+template="<Frontmatter File (Expects Directory)>"
 output_dir="<Where ever you want the file to go>"
 
 while [[ "$#" -gt 0 ]]
@@ -67,6 +67,6 @@ else
 fi
 ```
 
-Rofi has to use a custom config. Get mine [here](minimal.rasi). Linked is the raw file :)
+Rofi has to use a custom config. Get mine [here](/minimal.rasi). Linked is the raw file :)
 
 This one requires `mpv`, `rofi`, and `yt-dlp`. Be careful with yt-dlp, because it technically could do digital piracy. Don't do that. You wouldn't steal a font.

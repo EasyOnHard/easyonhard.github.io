@@ -92,7 +92,7 @@ The best thing: you can do almost anything through scripting, which is easier an
 note.zsh This is a simple ZSH script that simpily makes a .md file, designed for Obsidian, and adds some data.">
   <meta itemprop="datePublished" content="2025-07-23T00:00:00+00:00">
   <meta itemprop="dateModified" content="2025-07-23T00:00:00+00:00">
-  <meta itemprop="wordCount" content="289">
+  <meta itemprop="wordCount" content="292">
   <meta itemprop="keywords" content="Digital"><meta property="og:url" content="https://easyonhard.github.io/projects/cli-fun/">
   <meta property="og:site_name" content="EasyOnHard">
   <meta property="og:title" content="Command Line Utilities">
@@ -232,7 +232,7 @@ note.zsh This is a simple ZSH script that simpily makes a .md file, designed for
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># Get File Name, Data, and Location</span>
 </span></span><span style="display:flex;"><span>name<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>date +%Y-%m-%d<span style="color:#ae81ff">\|</span>%H:%M<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
 </span></span><span style="display:flex;"><span>data<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&#34;</span>
-</span></span><span style="display:flex;"><span>template<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&lt;Frontmatter&gt;&#34;</span>
+</span></span><span style="display:flex;"><span>template<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&lt;Frontmatter File (Expects Directory)&gt;&#34;</span>
 </span></span><span style="display:flex;"><span>output_dir<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&lt;Where ever you want the file to go&gt;&#34;</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> <span style="color:#f92672">[[</span> <span style="color:#e6db74">&#34;</span>$#<span style="color:#e6db74">&#34;</span> -gt <span style="color:#ae81ff">0</span> <span style="color:#f92672">]]</span>
@@ -274,7 +274,7 @@ note.zsh This is a simple ZSH script that simpily makes a .md file, designed for
 </span></span><span style="display:flex;"><span>  echo <span style="color:#e6db74">&#34;Unrecognized Input: \&#34;</span>$rofi_output<span style="color:#e6db74">\&#34;&#34;</span>
 </span></span><span style="display:flex;"><span>  exit <span style="color:#ae81ff">1</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">fi</span>
-</span></span></code></pre></div><p>Rofi has to use a custom config. Get mine <a href="minimal.rasi">here</a>. Linked is the raw file :)</p>
+</span></span></code></pre></div><p>Rofi has to use a custom config. Get mine <a href="/minimal.rasi">here</a>. Linked is the raw file :)</p>
 <p>This one requires <code>mpv</code>, <code>rofi</code>, and <code>yt-dlp</code>. Be careful with yt-dlp, because it technically could do digital piracy. Don&rsquo;t do that. You wouldn&rsquo;t steal a font.</p>
 </section>
 
