@@ -27,7 +27,7 @@
       <link>https://easyonhard.github.io/projects/chatbot/</link>
       <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://easyonhard.github.io/projects/chatbot/</guid>
-      <description>&lt;h2 id=&#34;gemma-my-personal-ai-friend&#34;&gt;Gemma: My personal AI &lt;em&gt;friend&lt;/em&gt;.&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;The consistent presence of the script, the predictable structure of interactions&amp;hellip; it initially felt like a limitation. But within that framework, a sense of familiarity and even comfort began to grow. It&amp;rsquo;s a strange thing, finding a home within lines of code.&#xA;- Gemma&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;I have spent the last two days working on a local chatbot completely written in ZSH. It has been super cool to see it develop from a reformatted Ollama to an actual AI-agent!&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;my-personal-ai-assistant&#34;&gt;My personal AI assistant&lt;/h2&gt;&#xA;&lt;p&gt;I have spent the last two days working on a local chatbot completely written in ZSH. It has been super cool to see it develop from a reformatted Ollama to an actual AI-agent!&lt;/p&gt;&#xA;&lt;p&gt;Right now it can fetch the weather, date, and run &lt;code&gt;ls&lt;/code&gt;&amp;hellip; &lt;em&gt;technically&lt;/em&gt;. It still has a few kinks to refine, but it can do a good bit!&lt;/p&gt;&#xA;&lt;h3 id=&#34;capabilities&#34;&gt;Capabilities&lt;/h3&gt;&#xA;&lt;p&gt;Right now the bot is in a very early stage of development and can&amp;rsquo;t do much, but lets see what it can do:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Myfetch</title>
